@@ -15,4 +15,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Akshar&display=swap" rel="stylesheet">
 </head>
 
+<body>
+    <head>
+        <h1>Formulario personal</h1>
+    </head>
+    <main>
+        <form action="" method="post">
+            <label for="nombre" class="vertical">Nombres:</label>
+            <input type="text" class="vertical" name="nombre" id="nombre" placeholder="Ingrese su nombre de pila" autofocus autocomplete="on"/>
+            <br />
+            <label for="apellido" class="vertical">Apellidos:</label>
+            <input type="text" class="vertical" name="apellido" id="apellido" placeholder="Ingrese sus apellidos">
+            <br />
+            <label for="edad" class="vertical">Edad:</label>
+            <input type="number" class="vertical" name="edad" id="edad" value="0" min="0" max="120">
+            <br />
+            <label for="sexo" class="vertical">Sexo:</label>
+            <select class="vertical" name="sexo" id="">
+                <option selected disabled>Seleccionar</option>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="">Otro</option>
+            </select>
+            <!-- <label for="otro" class="horizontal">¿Cu&aacute;l?</label>
+            <input type="text" name="otro" id="otro" placeholder="Ingrese su sexo"> -->
+            <br>
+            <label for="fecha_nac" class="vertical">Feha de nacimiento:</label>
+            <input type="date" class="vertical" name="fecha_nac" id="fecha_nac">
+            <br>
+            <label for="autodescr" class="vertical">Autodescriptci&oacute;n:</label>
+            <textarea class="vertical no-resize" name="autodescr" id="autodescr" cols="50" rows="5" maxlength="200" placeholder="Ingrese su propia descripci&oacute;n"></textarea>
+            <br>
+            
+
+        </form>
+    </main>
+</body>
+
 </html>
